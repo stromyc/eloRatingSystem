@@ -13,6 +13,7 @@
 		7F380E0C1CDAE1230098F216 /* eloRatingSystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F380E0A1CDAE1230098F216 /* eloRatingSystem.xcdatamodeld */; };
 		7F380E0E1CDAE1230098F216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F380E0D1CDAE1230098F216 /* Assets.xcassets */; };
 		7F380E111CDAE1230098F216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F380E0F1CDAE1230098F216 /* LaunchScreen.storyboard */; };
+		7F380E191CDAE13F0098F216 /* eloRatingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F380E181CDAE13F0098F216 /* eloRatingFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7F380E0D1CDAE1230098F216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F380E101CDAE1230098F216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F380E121CDAE1240098F216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F380E181CDAE13F0098F216 /* eloRatingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eloRatingFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7F380E0F1CDAE1230098F216 /* LaunchScreen.storyboard */,
 				7F380E121CDAE1240098F216 /* Info.plist */,
 				7F380E0A1CDAE1230098F216 /* eloRatingSystem.xcdatamodeld */,
+				7F380E181CDAE13F0098F216 /* eloRatingFunction.swift */,
 			);
 			path = eloRatingSystem;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F380E0C1CDAE1230098F216 /* eloRatingSystem.xcdatamodeld in Sources */,
+				7F380E191CDAE13F0098F216 /* eloRatingFunction.swift in Sources */,
 				7F380E061CDAE1230098F216 /* ViewController.swift in Sources */,
 				7F380E041CDAE1230098F216 /* AppDelegate.swift in Sources */,
 			);

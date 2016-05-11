@@ -17,6 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 		// Override point for customization after application launch.
+        
+        
+        // Create a PlayerStore
+        let playerStore = PlayerStore()
+        
+        // Access the PlayersViewController and set its player store.
+        let playersController = window!.rootViewController as! PlayersViewController
+        playersController.playerStore = playerStore
+
+        
+        
+        
+        
+        
+        
+        
 		return true
 	}
 

@@ -14,6 +14,10 @@
 		7F380E0E1CDAE1230098F216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F380E0D1CDAE1230098F216 /* Assets.xcassets */; };
 		7F380E111CDAE1230098F216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F380E0F1CDAE1230098F216 /* LaunchScreen.storyboard */; };
 		7F380E191CDAE13F0098F216 /* eloRatingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F380E181CDAE13F0098F216 /* eloRatingFunction.swift */; };
+		A2B845FD1CE2BEF400274627 /* EloRatingCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B845FC1CE2BEF400274627 /* EloRatingCalculator.swift */; };
+		A2B845FF1CE2BF0600274627 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B845FE1CE2BF0600274627 /* Player.swift */; };
+		A2B846011CE2BF0B00274627 /* PlayerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B846001CE2BF0B00274627 /* PlayerStore.swift */; };
+		A2B846031CE2BF1000274627 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B846021CE2BF1000274627 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		7F380E101CDAE1230098F216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F380E121CDAE1240098F216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F380E181CDAE13F0098F216 /* eloRatingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eloRatingFunction.swift; sourceTree = "<group>"; };
+		A2B845FC1CE2BEF400274627 /* EloRatingCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EloRatingCalculator.swift; sourceTree = "<group>"; };
+		A2B845FE1CE2BF0600274627 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A2B846001CE2BF0B00274627 /* PlayerStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStore.swift; sourceTree = "<group>"; };
+		A2B846021CE2BF1000274627 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				7F380E121CDAE1240098F216 /* Info.plist */,
 				7F380E0A1CDAE1230098F216 /* eloRatingSystem.xcdatamodeld */,
 				7F380E181CDAE13F0098F216 /* eloRatingFunction.swift */,
+				A2B845FC1CE2BEF400274627 /* EloRatingCalculator.swift */,
+				A2B845FE1CE2BF0600274627 /* Player.swift */,
+				A2B846001CE2BF0B00274627 /* PlayerStore.swift */,
+				A2B846021CE2BF1000274627 /* PlayerViewController.swift */,
 			);
 			path = eloRatingSystem;
 			sourceTree = "<group>";
@@ -142,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B845FD1CE2BEF400274627 /* EloRatingCalculator.swift in Sources */,
+				A2B846031CE2BF1000274627 /* PlayerViewController.swift in Sources */,
 				7F380E0C1CDAE1230098F216 /* eloRatingSystem.xcdatamodeld in Sources */,
 				7F380E191CDAE13F0098F216 /* eloRatingFunction.swift in Sources */,
+				A2B846011CE2BF0B00274627 /* PlayerStore.swift in Sources */,
 				7F380E061CDAE1230098F216 /* ViewController.swift in Sources */,
+				A2B845FF1CE2BF0600274627 /* Player.swift in Sources */,
 				7F380E041CDAE1230098F216 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +313,7 @@
 				7F380E171CDAE1240098F216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

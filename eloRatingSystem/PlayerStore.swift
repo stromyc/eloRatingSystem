@@ -18,6 +18,12 @@ class PlayerStore {
         
         return newPlayer
     }
+	
+	func rankOrder(players: [Player]) {
+		for playerEloRating in players {
+			print(playerEloRating.eloRating)
+		}
+	}
     
     // Method to remove a specific player from index using tableview deletion
     func removePlayer(player: Player) {

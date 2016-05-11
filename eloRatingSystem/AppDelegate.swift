@@ -23,13 +23,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let playerStore = PlayerStore()
         
         // Access the PlayersViewController and set its player store.
-        let playersController = window!.rootViewController as! PlayersViewController
-        playersController.playerStore = playerStore
-
+		// let playersController = window!.rootViewController as! PlayersViewController
+		let navController = window!.rootViewController as! UINavigationController
+		let playersController = navController.topViewController as! PlayersViewController
+		playersController.playerStore = playerStore
+		
         
-        
-        
-        
+//		if let tab = window?.rootViewController as? UITabBarController {
+//			for child in tab.viewControllers! ?? [] {
+//				
+//				if child.respondsToSelector("setManagedObjectContext:"){
+//					child.performSelector("setManagedObjectContext:",
+//					                      withObject: managedObjectContext)
+//					print("Child tab responded to selector setManagedObjectContext.")
+//					
+//				}
+//			}
+//		}
+		
         
         
         
